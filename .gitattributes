@@ -1,0 +1,36 @@
+# Auto detect text files and normalize line endings
+* text=auto eol=lf
+
+# Source code
+*.ts      text
+*.mts     text
+*.cts     text
+*.js      text
+*.mjs     text
+*.cjs     text
+*.json    text
+*.md      text
+*.yml     text
+*.yaml    text
+*.toml    text
+*.html    text
+*.css     text
+*.scss    text
+*.svg     text
+
+# Shell scripts
+*.sh      text eol=lf
+
+# Windows scripts
+*.bat     text eol=crlf
+*.cmd     text eol=crlf
+*.ps1     text eol=crlf
+
+# Binary files
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.ico     binary
+*.pdf     binary
+*.zip     binary
