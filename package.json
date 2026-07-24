@@ -10,6 +10,8 @@
         "@eslint/markdown": "^8.0.3",
         "@types/bun": "latest",
         "@vitest/coverage-v8": "^4.1.10",
+        "commitizen": "^4.3.2",
+        "cz-git": "^1.13.1",
         "eslint": "^10.7.0",
         "eslint-config-prettier": "^10.1.8",
         "globals": "^17.7.0",
@@ -30,7 +32,8 @@
         "lint:fix": "eslint . --fix",
         "format": "prettier . --write",
         "format:check": "prettier . --check",
-        "prepare": "husky"
+        "prepare": "husky",
+        "commit": "cz"
     },
     "type": "module",
     "lint-staged": {
@@ -41,5 +44,10 @@
         "*.{json,md,yml,yaml}": [
             "prettier --write"
         ]
+    },
+    "config": {
+        "commitizen": {
+            "path": "cz-git"
+        }
     }
 }
