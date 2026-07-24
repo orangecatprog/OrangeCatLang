@@ -1,15 +1,55 @@
-# orange-cat-lang
+# Orange Cat Lang
 
-To install dependencies:
+> A simple, fast-developing, and easy-to-use programming language.
 
-```bash
-bun install
+![License](https://img.shields.io/badge/license-MIT-orange)
+![CI](https://img.shields.io/github/actions/workflow/status/orangecatprog/OrangeCatLang/ci.yml?branch=main)
+
+---
+
+## Table of Contents
+
+- [Orange Cat Lang](#orange-cat-lang)
+    - [Table of Contents](#table-of-contents)
+    - [Quick Start](#quick-start)
+    - [Examples](#examples)
+        - [Hello World](#hello-world)
+        - [Variables](#variables)
+        - [Functions](#functions)
+    - [License](#license)
+
+---
+
+## Quick Start
+
+```ts
+// Coming soon
 ```
 
-To run:
+---
 
-```bash
-bun run index.ts
+## Examples
+
+### Hello World
+
+```ocat
+// Coming soon
 ```
 
-This project was created using `bun init` in bun v1.3.14. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+### Variables
+
+```ocat
+// Coming soon
+```
+
+### Functions
+
+```ocat
+// Coming soon
+```
+
+## License
+
+Distributed under the MIT License.
+
+See [LICENSE](LICENSE) for more information.
